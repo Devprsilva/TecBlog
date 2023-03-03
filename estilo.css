@@ -1,0 +1,147 @@
+/*Limpar formatações*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6 ;
+}
+
+/****Layout****/
+
+#cabeçalho{
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+ 
+#postagens{
+    width: 660px;
+    float: left;
+
+}
+
+#menu-lateral{
+    width: 240px;
+    float: right;
+}
+
+#lista-lateral{
+    width: 240px;
+    float: right;
+     
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#rodape{
+    background-color: green;
+    clear: both;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+    font-weight: bold;
+}
+   
+.conteudo-lateral{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    
+}
+
+.link-lateral{
+    margin-bottom: 5px;
+}
+
+
+/****Formatação do Menu****/
+
+a{
+    text-decoration: none;
+    
+}
+
+#menu a:link, #menu a:visited{
+    color:#fff;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+#menu a:hover{
+    background-color: #FFF;
+    color:#f7b600;
+    font-weight: bold;
+    
+}
+
+a:link, a:visited{
+ color: #f7b600;
+ font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    background: gray;
+    font-weight: bold;
+}
+
+/****Formatações Gerais****/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco{
+    color: white;
+}
+
+h2{
+    color: #f7b600;
+}
+.data-postagem{
+    font-weight: bold;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.texto-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+
+
+}
